@@ -1,7 +1,7 @@
-import Header from "jsconfig.json/components/Header";
+import Image from "next/image";
+import Responsive from "jsconfig.json/components/Responsive";
 import StartPage from "jsconfig.json/components/StartPage";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,10 +18,8 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <main>
-        <Header />
-        <StartPage />
-      </main>
+      <StartPage />
+      <Responsive />
     </>
   );
 }

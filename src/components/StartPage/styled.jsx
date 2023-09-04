@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
+  margin-top: 50px;
   .cont {
     width: 80%;
     display: flex;
@@ -22,6 +22,10 @@ export const Container = styled.div`
       font-weight: 300;
       font-size: 22px;
       text-align: justify;
+      @media(min-width:1200px){
+       font-size: 28px;
+       width: 400px;
+      }
     }
 
     strong {
@@ -31,6 +35,11 @@ export const Container = styled.div`
     img {
       width: 400px;
       height: 400px;
+
+      @media(min-width:1200px){
+        width: 600px;
+        height: 600px;
+      }
     }
   }
 `;
