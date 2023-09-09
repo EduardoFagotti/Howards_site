@@ -13,15 +13,22 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     gap: 10%;
+    @media (max-width: 850px) {
+      flex-direction: column;
+    }
   }
 
   img {
     width: 400px;
     height: 400px;
-    @media(min-width:1200px){
-        width: 650px;
-        height: 650px;
-      }
+    @media (min-width: 1200px) {
+      width: 650px;
+      height: 650px;
+    }
+    @media (max-width: 500px) {
+      width: 350px;
+      height: 350px;
+    }
   }
 
   p {
@@ -38,6 +45,9 @@ export const Container = styled.div`
     @media (min-width: 1200px) {
       font-size: 28px;
       width: 400px;
+    }
+    @media (max-width: 500px) {
+      width: 100%;
     }
   }
 `;

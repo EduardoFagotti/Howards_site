@@ -8,6 +8,20 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 500px) {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .cont {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .contacts {
+        align-items: center !important;
+      }
+    }
+  }
 
   .cont {
     display: flex;
