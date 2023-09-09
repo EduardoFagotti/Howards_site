@@ -8,10 +8,10 @@ export default function Header() {
       <div className="cont">
         <Image src={icon} with="50px" heigth="50px" alt="" />
         <div className="buttons">
-          <button>TESTE</button>
-          <button>TESTE</button>
-          <button>TESTE</button>
-          <button>TESTE</button>
+          <button>teste</button>
+          <button>teste</button>
+          <button>teste</button>
+          <button>teste</button>
         </div>
       </div>
     </Container>
