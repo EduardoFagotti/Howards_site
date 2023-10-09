@@ -40,7 +40,9 @@ export default function Header() {
             </div>
             <div className="buttons-mobile" id={open}>
               <CgClose id="close-icon" onClick={() => setOpen("close")} />
-              <button onClick={() => scrollTo()}>Home</button>
+              <button onClick={() => scrollTo("home") || setOpen("close")}>
+                Home
+              </button>
               <button
                 onClick={() => scrollTo("Responsive") || setOpen("close")}
               >
