@@ -7,6 +7,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
 
   .cont {
     width: 80%;
@@ -16,6 +17,15 @@ export const Container = styled.div`
     padding-bottom: 10px;
     padding-top: 10px;
     border-bottom: 2px solid #7f7f7f;
+    @media (max-width: 500px) {
+      width: 92%;
+      justify-content: space-between;
+      //gap: 20%;
+
+      .buttons {
+        width: auto;
+      }
+    }
 
     img {
       width: 60px;
@@ -34,13 +44,46 @@ export const Container = styled.div`
       background-color: transparent;
       border: none;
       font-size: 18px;
-      font-family: "Roboto", sans-serif;
+      font-family: "Kanit", sans-serif;
       font-weight: bold;
     }
 
     button:hover {
       color: #9041c5;
       cursor: pointer;
+    }
+  }
+  #menu-icon {
+    color: #ffffff;
+    width: 32px;
+    height: 32px;
+  }
+  #close-icon {
+    color: #ffffff;
+    width: 32px;
+    height: 32px;
+    padding: 25px;
+  }
+  #open {
+    display: flex;
+  }
+  #close {
+    display: none;
+  }
+  .buttons-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 100vw;
+    button {
+      margin-right: 25px;
+      font-size: 22px;
     }
   }
 `;
