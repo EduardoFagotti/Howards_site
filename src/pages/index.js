@@ -2,6 +2,8 @@ import Image from "next/image";
 import Responsive from "jsconfig.json/components/Responsive";
 import StartPage from "jsconfig.json/components/StartPage";
 import Head from "next/head";
+import Your from "jsconfig.json/components/Your";
+import Projects from "jsconfig.json/components/Projects";
 
 export default function Home() {
   return (
@@ -18,8 +20,10 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
+      <Your />
       <StartPage />
       <Responsive />
+      {/* <Projects /> */}
     </>
   );
 }

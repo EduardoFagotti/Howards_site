@@ -4,7 +4,7 @@ import { Container } from "./styled";
 
 export default function StartPage() {
   return (
-    <Container name="home">
+    <Container>
       <div className="cont">
         <p>
           Creation of <strong>websites</strong> and{" "}

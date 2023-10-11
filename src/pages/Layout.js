@@ -8,7 +8,7 @@ export default function Layout({ children }) {
     <Container>
       <Header />
       <main>{children}</main>
-      <ul className="circles">
+      {/* <ul className="circles">
         <li></li>
         <li></li>
         <li></li>
@@ -29,7 +29,7 @@ export default function Layout({ children }) {
         <li></li>
         <li></li>
         <li></li>
-      </ul>
+      </ul> */}
       <Footer />
     </Container>
   );

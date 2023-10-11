@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 600px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,14 +20,14 @@ export const Container = styled.div`
 
   img {
     width: 400px;
-    height: 400px;
+    height: 250px;
     @media (min-width: 1200px) {
       width: 650px;
-      height: 650px;
+      height: 450px;
     }
     @media (max-width: 500px) {
       width: 350px;
-      height: 350px;
+      height: 220px;
     }
   }
 

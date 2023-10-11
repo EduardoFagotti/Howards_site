@@ -1,7 +1,8 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #131313;
+  /* background-color: #131313; */
+  background-color: #101010;
   overflow-x: hidden !important;
 }
 

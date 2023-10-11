@@ -2,12 +2,12 @@ import { styled } from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 600px;
+  height: 500px;
   overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   .cont {
     width: 80%;
     display: flex;
@@ -41,15 +41,15 @@ export const Container = styled.div`
 
     img {
       width: 400px;
-      height: 400px;
+      height: 300px;
 
       @media (min-width: 1200px) {
         width: 600px;
-        height: 600px;
+        height: 420px;
       }
       @media (max-width: 500px) {
         width: 300px;
-        height: 300px;
+        height: 220px;
       }
     }
   }
