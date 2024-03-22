@@ -4,6 +4,7 @@ import StartPage from "jsconfig.json/components/StartPage";
 import Head from "next/head";
 import Your from "jsconfig.json/components/Your";
 import Projects from "jsconfig.json/components/Projects";
+import Products from "jsconfig.json/components/Products";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         />
       </Head>
       <Your />
+      <Products />
       <StartPage />
       <Responsive />
       {/* <Projects /> */}

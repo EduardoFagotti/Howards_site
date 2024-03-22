@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-top: 50px; */
+
   .cont {
     width: 80%;
     display: flex;
